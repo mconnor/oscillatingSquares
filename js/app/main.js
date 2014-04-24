@@ -13,7 +13,7 @@ define(["jquery", "jquery.purls", "TweenMax"],
 		"use strict";
 		var 
 			onResize, createBip,
-			init, 
+			publicInit, 
 			$container, tweenAlpha,
 			configMap = { 
 				numOfBips: 100
@@ -57,7 +57,7 @@ define(["jquery", "jquery.purls", "TweenMax"],
 		};
 
 
-		init = function (elem) {
+		publicInit = function (elem) {
 			var i;
 			$container = elem;
 
@@ -80,8 +80,6 @@ define(["jquery", "jquery.purls", "TweenMax"],
 			onResize();
 		};
 
-		return {
-			init : init
-		};
+		return { init : publicInit };
 	}
 );
