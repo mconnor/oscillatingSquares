@@ -10,8 +10,12 @@ require.config({
 			'jquery.purls' : 'purls',
 
       		// becaue we aren't using this, it won't load
+      		
+
       		"jquery.bootstrap": "../../bootstrap/js/bootstrap.min",
-      		jqueryui : "jquery-ui-1.10.4.min"
+      		
+			jqueryui : "jquery-ui-1.10.4.custom.min"
+      		//jqueryui : "jquery-ui-1.10.4.min"
 		},
 		waitSeconds: 15,
 		shim: {
