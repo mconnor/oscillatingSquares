@@ -5,7 +5,9 @@ require.config({
 		    TweenMax : 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TweenMax.min',
 			app : "../app",
 			
-			jquery : 'jquery-1.11.0.min',
+			jquery: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min",
+			//'jquery' : '//code.jquery.com/jquery-1.11.0.min',
+			//jquery : 'jquery-1.11.0.min',
 			// key needs quotes because of dot in name
 			'jquery.purls' : 'purls',
 
