@@ -4,10 +4,15 @@ A little experiment in buiding out js modules in a continuing effort to grok OOP
 
 Features:
 
-A modular bit of javascript (requireJS), revealing module pattern.
+- A modular bit of javascript ([requireJS][require]), revealing module pattern.
 
-GSAP animation library
+- [GSAP][gs] animation library
 
-jQueryUI for making container boxes resizable.
+- jQueryUI for making container boxes resizable.
 
 
+[rn9-fizzbuzz]: http://rocketnumber9.org/test/jschallenges/fizzBuzz/fizzbuzz.html
+
+[require]: http://requirejs.org/
+
+[gs]: https://greensock.com/

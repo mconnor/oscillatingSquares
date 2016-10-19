@@ -1,36 +1,35 @@
-
 require.config({
-	baseUrl: "js/lib",
-		paths: {
-		    TweenMax : 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TweenMax.min',
-			app : "../app",
-			
-			jquery: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min",
-			//'jquery' : '//code.jquery.com/jquery-1.11.0.min',
-			//jquery : 'jquery-1.11.0.min',
-			// key needs quotes because of dot in name
-			'jquery.purls' : 'purls',
+    baseUrl: "js/lib",
+    paths: {
+        TweenMax: 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TweenMax.min',
+        app: "../app",
 
-      		// becaue we aren't using this, it won't load
-      		"jquery.bootstrap": "../../bootstrap/js/bootstrap.min",
+        jquery: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min",
+        //'jquery' : '//code.jquery.com/jquery-1.11.0.min',
+        //jquery : 'jquery-1.11.0.min',
+        // key needs quotes because of dot in name
+        'jquery.purls': 'purls',
 
-			jqueryui : "jquery-ui-1.10.4.custom.min"
-		},
-		waitSeconds: 15,
-		shim: {
-			"jquery.bootstrap": {
-				deps: ["jquery"],
-				exports: 'Bootstrap'
-			}
-		}
+        // becaue we aren't using this, it won't load
+        "jquery.bootstrap": "../../bootstrap/js/bootstrap.min",
+
+        jqueryui: "jquery-ui-1.10.4.custom.min"
+    },
+    waitSeconds: 15,
+    shim: {
+        "jquery.bootstrap": {
+            deps: ["jquery"],
+            exports: 'Bootstrap'
+        }
+    }
 });
 
 
 // Load the main app module to start the app
 
-require( ["app/main", "jquery" ], function( main, $){
-	$(document).ready(function() {
-		main.init( $('#box1') );
-		main.init( $('#box2') );
-	});
+require(["app/main", "jquery"], function(main, $) {
+    $(document).ready(function() {
+        main.init($('#box1'));
+        main.init($('#box2'));
+    });
 });
