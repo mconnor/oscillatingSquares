@@ -1,0 +1,26 @@
+{
+  "name": "oscillatingsquares",
+  "version": "1.0.0",
+  "description": "es5 animation with gsap TweenMax",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mconnor@github.com/mconnor/oscillatingSquares.git"
+  },
+  "keywords": [
+    "jquery",
+    "require",
+    "gsap",
+    "tweenmax",
+    "es5"
+  ],
+  "author": "michael connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mconnor/oscillatingSquares/issues"
+  },
+  "homepage": "https://github.com/mconnor/oscillatingSquares#readme"
+}
